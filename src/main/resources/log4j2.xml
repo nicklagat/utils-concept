@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="logPattern">%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %highlight{%msg}{FATAL=red, ERROR=red, WARN=yellow, INFO=green, DEBUG=blue, TRACE=cyan}%n</Property>
+        <Property name="logFile">./logs/app.log</Property>
+    </Properties>
+    <Appenders>
+        <!-- Console Appender with Color-coded Levels -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${logPattern}"/>
+        </Console>
+
+        <!-- File Appender -->
+        <File name="File" fileName="${logFile}" append="true">
+            <PatternLayout pattern="${logPattern}"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>

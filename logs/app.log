@@ -1,0 +1,27 @@
+20:29:17.960 [main] INFO  org.example.Main - Creating the object
+20:31:47.046 [main] INFO  org.example.Main - [32mCreating the object[m
+20:32:16.047 [main] INFO  org.example.Main - [mCreating the object[m
+20:32:41.672 [main] INFO  org.example.Main - [34mCreating the object[m
+20:32:58.093 [main] INFO  org.example.Main - [34mCreating the object[m
+20:33:08.966 [main] INFO  org.example.Main - [34mCreating the object[m
+20:33:16.204 [main] INFO  org.example.Main - [34mCreating the object[m
+20:33:34.407 [main] INFO  org.example.Main - [32mCreating the object[m
+20:34:17.265 [main] INFO  org.example.Main - [32mCreating the object[m
+21:06:02.810 [main] INFO  org.example.Main - [32mCreating the object[m
+21:13:25.284 [main] INFO  org.example.Main - [32mCreating the object[m
+21:17:17.487 [main] INFO  org.example.Main - [32mCreating the object[m
+21:21:09.569 [main] INFO  org.example.Main - [32mCreating the object[m
+21:27:04.195 [main] INFO  org.example.Main - [32mCreating the object[m
+21:32:02.550 [main] INFO  org.example.Main - [32mCreating the object[m
+21:46:07.155 [main] INFO  org.example.Main - [32mCreating the object[m
+21:50:45.562 [main] INFO  org.example.Main - [32mCreating the object[m
+21:58:59.419 [main] INFO  org.example.Main - [32mCreating the object[m
+22:04:30.252 [main] INFO  org.example.Main - [32mCreating the object[m
+22:08:41.984 [main] INFO  org.example.Main - [32mCreating the object[m
+22:14:26.182 [main] INFO  org.example.Main - [32mCreating the object[m
+22:14:54.022 [main] INFO  org.example.Main - [32mCreating the object[m
+22:18:09.813 [main] INFO  org.example.Main - [32mCreating the object[m
+22:18:09.816 [main] INFO  org.example.Main - [32mEnter the name of your electric vehicle: [m
+22:19:36.408 [main] INFO  org.example.Main - [32mWe are creating an electric vehicle object and converting it to Json string: Jaguar I-PACE[m
+22:24:07.080 [main] INFO  org.example.Main - [32mWe are creating an electric vehicle object and converting it to Json string: [m
+22:24:58.197 [main] INFO  org.example.Main - [32mWe are creating an electric vehicle object and converting it to Json string: [m
