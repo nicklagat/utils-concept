@@ -62,12 +62,21 @@ public class RegexImp {
 
     public static void main(String[] args) {
 
+
+        Pattern pattern = Pattern.compile("a+b");
+        Matcher matcher = pattern.matcher("aaaab");
+        System.out.println(matcher.find());
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your phone number: ");
 
         String input = scanner.nextLine();
 
         System.out.println(checkNumber(input));
+
+
+
+
     }
 
 

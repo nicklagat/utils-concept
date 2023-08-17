@@ -12,6 +12,9 @@ public class CreateFile {
         System.out.println(createFile("test.text"));
         System.out.println(writeFile("Hello World, Today we are learning!!"));
 
+        System.out.println(deleteFile());
+
+
     }
 
 
@@ -36,6 +39,16 @@ public class CreateFile {
         writer.close();
 
         return "Successfully wrote to a file " +writer;
+    }
+
+    public static boolean deleteFile(){
+
+        File file = new File("test.text");
+        file.delete();
+        System.out.println("Deleted the file successfully " +file);
+
+
+        return true;
     }
 
 
